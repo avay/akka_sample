@@ -69,7 +69,19 @@
 			<version>4.11</version>
 			<scope>test</scope>
 		</dependency>
-
+		<!-- http://mvnrepository.com/artifact/com.datastax.cassandra/cassandra-driver-core -->
+		<dependency>
+    		<groupId>com.datastax.cassandra</groupId>
+    		<artifactId>cassandra-driver-core</artifactId>
+    		<version>3.0.2</version>
+		</dependency>
+		<!-- http://mvnrepository.com/artifact/com.typesafe.akka/akka-persistence-cassandra_2.11 -->
+		<!-- <dependency>
+    		<groupId>com.typesafe.akka</groupId>
+    		<artifactId>akka-persistence-cassandra_2.11</artifactId>
+    		<version>0.11</version>
+		</dependency>
+ 		-->
 	</dependencies>
 	<!-- <repositories> <repository> <id>2.11</id> <url>http://mvnrepository.com/artifact/com.typesafe.akka/akka-persistence-experimental_2.11</url> 
 		</repository> </repositories> -->

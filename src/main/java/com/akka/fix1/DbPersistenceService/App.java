@@ -28,7 +28,7 @@ public class App
 			e.printStackTrace();
 		}
 
-        final ActorRef actorRef = actorSystem.actorOf(Props.create(BaseProcessor.class), "base-processor");
+        final ActorRef actorRef = actorSystem.actorOf(Props.create(CasndraBaseProc.class), "base-processor");
         actorRef.tell("Persist in DB", null);
 
     	
